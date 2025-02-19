@@ -22,7 +22,7 @@ int main() {
     float Populacao;
     float Area;
     float PIB;
-    int Pturisticos;
+    int Pontosturisticos;
 
     printf ("Primeiro pais\n");
 
@@ -32,22 +32,23 @@ int main() {
     scanf ("%d", &Cidade);
 
     printf ("Insira a Populacao:\n");
-    scanf (" %1.3f ", &Populacao);
+    scanf ("%f", &Populacao);
 
     printf ("Insira a Area:\n");
-    scanf (" %f ", &Area);
+    scanf (" %f", &Area);
 
     printf ("Insira o PIB:\n");
-    scanf (" %f ", &PIB);
+    scanf (" %f", &PIB);
 
     printf ("Insira os Pontos Turisticos:\n");
-    scanf (" %d ", &Pturisticos:);
+    scanf (" %d", &Pontosturisticos );
 
     printf ("Você Inseriu:\n");
-    printf ("População: %1.3f\n", Populacao);
-    printf ("Área: %f\n", Area);
-    printf ("PIB:%f\n", PIB);
-    printf ("Pontos Turisticos\n", Pturisticos);
+    printf ("Cidade:%d\n", Cidade);
+    printf ("População: %.3f\n", Populacao);
+    printf ("Área: %.3f\n", Area);
+    printf ("PIB: %.3f\n", PIB);
+    printf ("Pontos Turisticos:%d\n", Pontosturisticos);
 
     return 0;
 }
