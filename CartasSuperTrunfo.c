@@ -44,14 +44,39 @@ int main() {
     scanf (" %d", &Pontosturisticos );
 
     printf ("Estado A\n");
-    printf ("Você Inseriu:\n");
+    printf ("Primeira carta cadastrada:\n");
     printf ("Cidade:%d\n", Cidade);
     printf ("População: %.3f\n", Populacao);
     printf ("Área: %.3f\n", Area);
     printf ("PIB: %.3f\n", PIB);
     printf ("Pontos Turisticos:%d\n", Pontosturisticos);
 
-    
+    printf ("Estado A\n");
+
+    printf ("Insira a Cidade:\n");
+    scanf ("%d", &Cidade);
+
+    printf ("Insira a Populacao:\n");
+    scanf ("%f", &Populacao);
+
+    printf ("Insira a Area:\n");
+    scanf (" %f", &Area);
+
+    printf ("Insira o PIB:\n");
+    scanf (" %f", &PIB);
+
+    printf ("Insira os Pontos Turisticos:\n");
+    scanf (" %d", &Pontosturisticos );
+
+    printf ("Estado A\n");
+    printf ("Segunda carta cadastrada:\n");
+    printf ("Cidade:%d\n", Cidade);
+    printf ("População: %.3f\n", Populacao);
+    printf ("Área: %.3f\n", Area);
+    printf ("PIB: %.3f\n", PIB);
+    printf ("Pontos Turisticos:%d\n", Pontosturisticos);
+
+
 
     return 0;
 }
