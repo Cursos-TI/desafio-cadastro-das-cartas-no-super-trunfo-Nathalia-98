@@ -43,12 +43,15 @@ int main() {
     printf ("Insira os Pontos Turisticos:\n");
     scanf (" %d", &Pontosturisticos );
 
+    printf ("Estado A\n");
     printf ("Você Inseriu:\n");
     printf ("Cidade:%d\n", Cidade);
     printf ("População: %.3f\n", Populacao);
     printf ("Área: %.3f\n", Area);
     printf ("PIB: %.3f\n", PIB);
     printf ("Pontos Turisticos:%d\n", Pontosturisticos);
+
+    
 
     return 0;
 }
