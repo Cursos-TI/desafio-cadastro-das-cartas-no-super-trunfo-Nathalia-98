@@ -27,7 +27,7 @@ int main() {
     float PIB;
     int Pontosturisticos;
 
-    //Para a primeira carta foram utilizados como daods de teste os dados da cidade de Brasilia.
+    //Para a primeira carta foram utilizados como dados de teste os dados da cidade de Brasilia.
 
     printf ("Primeira Carta:\n");
 
@@ -63,7 +63,8 @@ int main() {
     printf ("PIB:%.2f bilhões\n", PIB);
     printf ("Pontos Turísticos:%d\n", Pontosturisticos);
 
-    //Para a segunda carta foram utilizzados como dados de teste os dados de Goiania.
+    //Para a segunda carta foram utilizados como dados de teste os dados da cidade de Goiania.
+    //Por isso o float possui quantidades de casas decimais diferentes em cada cidade.
 
     printf ("Segunda Carta:\n");
 
