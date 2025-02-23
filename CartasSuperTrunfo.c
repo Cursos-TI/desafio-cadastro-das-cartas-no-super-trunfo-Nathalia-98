@@ -18,65 +18,91 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    int Cidade;
+
+    char Estado;
+    char Codigo[10];
+    char Cidade[20];
     float Populacao;
     float Area;
     float PIB;
     int Pontosturisticos;
 
-    printf ("Primeiro pais\n");
+    //Para a primeira carta foram utilizados como daods de teste os dados da cidade de Brasilia.
 
-    printf ("Estado A\n");
+    printf ("Primeira Carta:\n");
 
-    printf ("Insira a Cidade:\n");
-    scanf ("%d", &Cidade);
+    printf ("Insira o Estado:\n");
+    scanf ("%c", &Estado);
 
-    printf ("Insira a Populacao:\n");
+    printf ("Insira o Codigo:\n");
+    scanf ("%s", &Codigo);
+
+    printf ("Insira o nome da Cidade:\n");
+    scanf ("%s", &Cidade);
+
+    printf ("Insira a População:\n");
     scanf ("%f", &Populacao);
 
-    printf ("Insira a Area:\n");
-    scanf (" %f", &Area);
+    printf ("Insira a Área:\n");
+    scanf ("%f", &Area);
 
     printf ("Insira o PIB:\n");
-    scanf (" %f", &PIB);
+    scanf ("%f", &PIB);
 
-    printf ("Insira os Pontos Turisticos:\n");
-    scanf (" %d", &Pontosturisticos );
+    printf ("Insira os Pontos Turísticos:\n");
+    scanf ("%d", &Pontosturisticos);
 
-    printf ("Estado A\n");
-    printf ("Primeira carta cadastrada:\n");
-    printf ("Cidade:%d\n", Cidade);
-    printf ("População: %.3f\n", Populacao);
-    printf ("Área: %.3f\n", Area);
-    printf ("PIB: %.3f\n", PIB);
-    printf ("Pontos Turisticos:%d\n", Pontosturisticos);
 
-    printf ("Estado A\n");
+    printf ("Você Inseriu:\n");
+    printf ("Primeira Carta\n");
+    printf ("Estado:%c\n", Estado);
+    printf ("Codigo:%s\n", Codigo);
+    printf ("Cidade:%s\n", Cidade);
+    printf ("População:%.3f milhões\n", Populacao);
+    printf ("Área:%.3f Km²\n", Area);
+    printf ("PIB:%.2f bilhões\n", PIB);
+    printf ("Pontos Turísticos:%d\n", Pontosturisticos);
 
-    printf ("Insira a Cidade:\n");
-    scanf ("%d", &Cidade);
+    //Para a segunda carta foram utilizzados como dados de teste os dados de Goiania.
 
-    printf ("Insira a Populacao:\n");
+    printf ("Segunda Carta:\n");
+
+    printf ("Insira o Estado:\n");
+    scanf (" %c", &Estado);
+
+    printf ("Insira o Codigo:\n");
+    scanf ("%s", &Codigo);
+
+    printf ("Insira o Nome da Cidade:\n");
+    scanf ("%s", &Cidade);
+
+    printf ("Insira a População:\n");
     scanf ("%f", &Populacao);
 
-    printf ("Insira a Area:\n");
-    scanf (" %f", &Area);
+    printf ("Insira a Área:\n");
+    scanf ("%f", &Area);
 
     printf ("Insira o PIB:\n");
-    scanf (" %f", &PIB);
+    scanf ("%f", &PIB);
 
-    printf ("Insira os Pontos Turisticos:\n");
-    scanf (" %d", &Pontosturisticos );
+    printf ("Insira os Pontos Turísticos:\n");
+    scanf ("%d", &Pontosturisticos);
 
-    printf ("Estado A\n");
-    printf ("Segunda carta cadastrada:\n");
-    printf ("Cidade:%d\n", Cidade);
-    printf ("População: %.3f\n", Populacao);
-    printf ("Área: %.3f\n", Area);
-    printf ("PIB: %.3f\n", PIB);
-    printf ("Pontos Turisticos:%d\n", Pontosturisticos);
+
+    printf ("Você Inseriu:\n");
+    printf ("Segunda Carta:\n");
+    printf ("Estado:%c\n", Estado);
+    printf ("Codigo:%s\n", Codigo);
+    printf ("Cidade:%s\n", Cidade);
+    printf ("População:%.3f milhões\n", Populacao);
+    printf ("Área:%.1f Km²\n", Area);
+    printf ("PIB:%.1f bilhões\n", PIB);
+    printf ("Pontos Turísticos:%d\n", Pontosturisticos);
 
 
 
     return 0;
+
+
+   
 }
